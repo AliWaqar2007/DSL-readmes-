@@ -1,0 +1,16 @@
+Calculator HTML File
+Explanation:
+This HTML file creates a simple calculator application that performs basic arithmetic operations (addition, subtraction, multiplication, and division).
+
+HTML Structure:
+The document includes Bootstrap and FontAwesome for styling.
+The form contains two input fields for numbers, a dropdown for selecting the operation, a button to perform the calculation, and a paragraph to display the result.
+
+CSS:
+Styles are included to enhance the appearance of the form using Bootstrap and custom styles.
+The background is a linear gradient, and the form has a semi-transparent white background with rounded corners and a box shadow.
+The form also includes an animation for scaling in when the page loads.
+
+JavaScript:
+The calculate function retrieves the input values and the selected operation, performs the calculation, and displays the result in the paragraph element.
+The function uses a switch statement to determine the operation to perform.

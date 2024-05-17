@@ -1,0 +1,10 @@
+HTML Structure: Sets up a form for adding records with a label and an image upload input. Displays the records using flexbox layout.
+
+CSS Styling: Defines styling for various elements, including form inputs, buttons, and record containers.
+
+JavaScript:
+Handles form submission to add records with image upload.
+Uses FileReader to display uploaded images.
+Provides functionality to delete and update records.
+
+External Resources: Utilizes Bootstrap and Font Awesome for styling.

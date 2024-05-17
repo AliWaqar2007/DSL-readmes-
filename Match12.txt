@@ -1,0 +1,10 @@
+HTML Structure: Sets up a form for inputting row and column numbers, and selecting colors for black and white squares. Displays the generated checkerboard pattern.
+
+CSS Styling: Defines basic styling for body, container, and table elements.
+
+JavaScript:
+Handles form submission to generate the checkerboard pattern.
+Retrieves input values for row, column, and colors.
+Creates a table with alternating colored squares based on the user's input.
+
+External Resources: Utilizes Bootstrap and Font Awesome for styling, and a custom CSS file for additional styling.

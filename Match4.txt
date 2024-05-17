@@ -1,0 +1,18 @@
+User Age HTML File
+
+Explanation:
+This HTML file creates a simple application that checks if the user's age qualifies them to vote (i.e., if they are 18 years or older).
+
+HTML Structure:
+The document includes a container that holds a form for entering the user's age and a button to submit the form.
+A paragraph element displays the result based on the age entered.
+
+CSS:
+Styles are included to enhance the appearance of the container, form elements, and background.
+The container is centered on the page with a semi-transparent white background.
+The button changes color on hover for a better user experience.
+
+JavaScript:
+The ageEligibility function checks the age entered in the input field.
+If the age is less than 18, it displays a message indicating the user is not eligible to vote.
+If the age is 18 or older, it displays a congratulatory message indicating the user is eligible to vote.

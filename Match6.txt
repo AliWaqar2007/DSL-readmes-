@@ -1,0 +1,18 @@
+Login Form HTML File
+
+Explanation:
+This HTML file creates a simple login form that checks if the user's credentials match predefined values.
+
+HTML Structure:
+The document includes Bootstrap and FontAwesome for styling.
+The form includes input fields for the username and password, and a button to submit the form.
+A paragraph element is used to display error messages or a success message.
+
+CSS:
+Styles are included to enhance the appearance of the form, input fields, and button.
+The form is styled with a border, padding, and centered elements.
+
+JavaScript:
+The hashPassword function converts each character of the password into its hexadecimal representation to create a simple hash.
+The login function checks if the entered username and hashed password match the predefined values.
+If the credentials are correct, a success message is displayed. Otherwise, an error message is shown.

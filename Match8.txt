@@ -1,0 +1,34 @@
+Explanation of Account Form HTML File
+This HTML file provides a user interface for managing a simple account with functionalities to create an account, check the balance, and perform transactions such as deposits and withdrawals. The application uses HTML, CSS, and JavaScript to achieve these functionalities.
+
+HTML Structure:
+Head Section:
+
+Includes meta tags for character set, viewport settings, and Bootstrap CSS for styling.
+The title is set to "Account Form".
+Body Section:
+
+Contains two main containers for account creation and transaction operations.
+Each container is styled to have a white background, padding, rounded corners, and box shadow for better aesthetics.
+
+Forms:
+Account Information Form:
+Inputs for account name and initial balance.
+A submit button to create the account.
+Transaction Form:
+Inputs for transaction amount and current balance (disabled).
+Buttons for withdrawal and deposit actions.
+
+CSS:
+The CSS styles define the layout and appearance of the form containers, input fields, buttons, and other elements.
+Styles include background color, padding, border-radius, box-shadow, font settings, and button hover effects.
+JavaScript:
+Variables:
+
+initialBalance, currentBalance, and transactionInput are used to store references to the respective HTML input elements.
+
+Functions:
+CreateAcc(event): Handles account creation by storing account name and initial balance in localStorage, and setting the current balance.
+updateBalance(amount): Updates the current balance by adding or subtracting the transaction amount.
+withdraw(): Handles withdrawal operations, checks if the withdrawal amount is valid and within the current balance, updates the balance, and alerts the user.
+deposit(): Handles deposit operations, checks if the deposit amount is valid, updates the balance, and alerts the user.

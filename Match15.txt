@@ -1,0 +1,13 @@
+HTML Structure: Contains a form to input the number of circles and a canvas element for drawing circles. Also dynamically generates color inputs for each circle.
+
+CSS Styling: Styles various elements including the container, form, labels, inputs, buttons, and canvas.
+
+JavaScript:
+Draws circles on the canvas diagonally based on the number of circles inputted.
+Dynamically updates the canvas when the color of any circle is changed using color inputs.
+
+Functionality:
+Users can input the number of circles they want to draw diagonally.
+Color inputs are dynamically generated for each circle.
+Circles are drawn with the specified colors on the canvas diagonally.
+Users can change the colors of individual circles, and the canvas updates accordingly.

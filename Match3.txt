@@ -1,0 +1,17 @@
+Match#3.html: Change Background Color
+
+Explanation:
+This HTML file allows users to change the background color of a section by selecting a color from a color picker.
+
+HTML Structure:
+
+The document includes Bootstrap and FontAwesome for styling and is structured with a container.
+The container includes a title, a color picker input, and a button.
+
+CSS:
+
+Custom styles are added to enhance the appearance of the elements.
+
+JavaScript:
+
+The changebg function sets the background color of the colorPreview div to the selected color from the color picker.

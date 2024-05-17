@@ -1,0 +1,14 @@
+This HTML document creates a simple carousel:
+
+Carousel Structure: The carousel consists of a container (div.carousel) with a set of slides (div.slides) containing images.
+
+Styling: The CSS provides styles for the carousel container, slides, and control buttons (#Previous, #Next, #play).
+
+JavaScript Functionality:
+The JavaScript code handles the functionality of the carousel.
+It defines functions to show the previous and next slides (prevSlide, nextSlide), as well as to autoplay the slides (autoPlay).
+Event listeners are added to the previous, next, and play/pause buttons to trigger the corresponding functions when clicked.
+The showSlide function is responsible for displaying a specific slide and hiding the rest.
+The autoplay feature changes slides automatically every 2 seconds.
+The first slide is shown immediately when the page loads.
+This carousel provides basic functionality for cycling through images with autoplay and manual navigation controls.

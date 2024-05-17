@@ -1,0 +1,12 @@
+This HTML document creates a lightbox gallery, allowing users to view larger versions of images in a modal window when clicked:
+
+HTML Structure: The structure includes a set of images displayed in columns within a row (div.row). Each image is wrapped in a div.column. Additionally, there is a hidden lightbox (div.lightbox) that displays the larger version of the clicked image.
+
+Styling: CSS styles the layout, images, and lightbox to create a visually appealing gallery. The hover-shadow class adds a shadow effect when hovering over the images.
+
+JavaScript Functionality:
+
+The openModal function is triggered when an image is clicked. It sets the display of the lightbox to "block" and updates the source of the lightbox image (img#lightbox-image) to the clicked image's source.
+The closeLightbox function sets the display of the lightbox to "none" when the close button (span.close) is clicked.
+Additionally, the script includes an event listener that closes the lightbox when clicking outside of the lightbox container.
+This lightbox gallery provides a simple and effective way to showcase images in a larger format without leaving the current page.

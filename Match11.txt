@@ -1,0 +1,9 @@
+HTML Structure: Sets up a form for selecting colors and a canvas for displaying the generated gradient.
+
+CSS Styling: Defines some basic styling for the body and canvas.
+
+JavaScript:
+Retrieves selected colors from the form.
+Generates a radial gradient using the selected colors.
+Renders the gradient on the canvas.
+External Resources: Utilizes Bootstrap and Font Awesome for styling, and a custom CSS file for additional styling.

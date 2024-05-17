@@ -1,0 +1,11 @@
+HTML Structure: Sets up a form for inputting name, font style, and color. Displays the canvas for drawing the name.
+
+CSS Styling: Utilizes Bootstrap for styling and a custom CSS file for additional styling.
+
+JavaScript:
+Handles form submission to draw the name on the canvas.
+Retrieves input values for name, font style, and color.
+Clears the canvas before drawing to avoid overlapping.
+Styles the name according to user input and draws it in the center of the canvas.
+
+External Resources: Utilizes Bootstrap, Font Awesome, and a custom CSS file for styling.

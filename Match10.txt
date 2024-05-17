@@ -1,0 +1,10 @@
+HTML Structure: Defines the layout, form for input, and container for displaying recipes.
+
+CSS Styling: Styles the elements, including recipe cards and delete buttons.
+
+JavaScript:
+Adds recipes dynamically.
+Validates form input.
+Allows hovering over recipe cards to show details.
+Enables deletion of recipes.
+Bootstrap: Used for styling and responsiveness.

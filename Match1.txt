@@ -1,0 +1,18 @@
+This HTML file creates a simple counter application with increment, decrement, and reset functionalities.
+
+HTML Structure:
+
+The document includes Bootstrap for styling and is structured with a container holding a card.
+The card displays the counter value and three buttons: Increment, Reset, and Decrement.
+
+CSS:
+
+Basic styling is included to enhance the appearance of the counter and buttons using Bootstrap classes.
+
+JavaScript:
+
+The counter variable holds the current count.
+The increment function increases the counter by one and updates the displayed value.
+The decrement function decreases the counter by one (if greater than zero) and updates the displayed value.
+The reset function sets the counter back to zero.
+The decrement button is disabled if the counter is zero to prevent negative values.

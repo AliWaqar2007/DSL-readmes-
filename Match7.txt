@@ -1,0 +1,18 @@
+Currency Converter HTML File
+
+Explanation:
+This HTML file creates a simple currency converter application that converts an amount from one currency to another using predefined conversion rates.
+
+HTML Structure:
+
+The document includes Bootstrap for styling.
+The form includes an input field for the amount, dropdown menus for selecting the "from" and "to" currencies, and a button to perform the conversion.
+A paragraph element is used to display the converted amount.
+
+CSS:
+Styles are included to enhance the appearance of the form, input fields, button, and the converted amount display.
+The form is centered on the page with a white background, rounded corners, and a box shadow for a clean and modern look.
+
+JavaScript:
+The conversionRates object stores the predefined conversion rates between various currencies.
+The convert function retrieves the input values, calculates the converted amount using the conversion rate from the conversionRates object, and displays the result in the paragraph element.

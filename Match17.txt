@@ -1,0 +1,15 @@
+This HTML document showcases an accordion component implemented using HTML, CSS, and JavaScript.
+
+Accordion Structure: Each accordion item consists of a button as the header and a panel containing the content.
+
+CSS Styling: Defines the styles for the accordion, including its appearance, hover effects, and transitions.
+
+JavaScript Functionality:
+Handles the accordion behavior by toggling the active class and adjusting the panel's height.
+Utilizes max-height to animate the expansion and collapse of the panels.
+The JavaScript code loops through each accordion item and adds a click event listener to toggle its active state. When an accordion item is clicked:
+
+It expands the associated panel by setting its max-height to the scroll height of the panel content.
+Collapses any previously expanded panels.
+Toggles the active class to visually indicate the active state of the clicked accordion item.
+This implementation ensures that only one panel can be expanded at a time and provides a smooth transition effect when opening and closing the panels.

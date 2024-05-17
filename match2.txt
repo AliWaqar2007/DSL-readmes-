@@ -1,0 +1,17 @@
+Match2 : Random Number Generator
+
+Explanation:
+This HTML file creates a random number generator application.
+
+HTML Structure:
+
+The document includes Bootstrap for styling and is structured with a container.
+The container displays a title, a button, and a paragraph to show the generated number.
+
+CSS:
+
+Basic styling is included to enhance the appearance using Bootstrap and custom styles.
+
+JavaScript:
+
+The random function generates a random number between 1 and 10 and displays it in the paragraph.
